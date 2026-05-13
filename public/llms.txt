@@ -1,0 +1,14 @@
+# FEAE Aragón
+
+> Fórum Europeo de Administradores de la Educación de Aragón. Asociación plural e independiente que reúne a equipos directivos, inspección educativa y profesorado para mejorar la equidad y la calidad de la educación aragonesa.
+
+FEAE Aragón genera espacios para el debate, la reflexión, la formación y la difusión de experiencias, publicaciones e investigaciones en materia educativa. Organiza jornadas, encuentros y publica las revistas Forum Aragón y DYLE.
+
+## Pages
+
+- [Inicio](/): Presentación general de FEAE Aragón.
+- [Conócenos](/conocenos): Misión, junta directiva y trayectoria.
+- [Noticias](/noticias): Convenios, encuentros y actividades recientes.
+- [Jornadas](/jornadas): XXXIII Jornadas Estatales FEAE — "Miradas de la Educación Inclusiva", Zaragoza, 23-24 octubre 2026.
+- [Revistas](/revistas): Revista Forum Aragón, DYLE y otras publicaciones de interés educativo.
+- [Contacto](/contacto): Correo, redes sociales y formulario para asociarse.
