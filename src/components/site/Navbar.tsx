@@ -8,7 +8,7 @@ const links = [
   { to: "/", label: "Inicio" },
   { to: "/conocenos", label: "Conócenos" },
   { to: "/noticias", label: "Noticias" },
-  { to: "/jornadas", label: "Jornadas" },
+ {/* { to: "/jornadas", label: "Jornadas" }*/},
   { to: "/revistas", label: "Revistas" },
   { to: "/contacto", label: "Contacto" },
 ];
