@@ -25,7 +25,7 @@ export const Footer = () => {
             <li><Link to="/" className="text-muted-foreground hover:text-primary">Inicio</Link></li>
             <li><Link to="/conocenos" className="text-muted-foreground hover:text-primary">Conócenos</Link></li>
             <li><Link to="/noticias" className="text-muted-foreground hover:text-primary">Noticias</Link></li>
-            {/*<li><Link to="/jornadas" className="text-muted-foreground hover:text-primary">Jornadas</Link></li>*/}
+            <li><Link to="/jornadas" className="text-muted-foreground hover:text-primary">Jornadas</Link></li>
             <li><Link to="/revistas" className="text-muted-foreground hover:text-primary">Revistas</Link></li>
             <li><Link to="/contacto" className="text-muted-foreground hover:text-primary">Contacto</Link></li>
           </ul>
@@ -52,8 +52,13 @@ export const Footer = () => {
         </div>
       </div>
       <div className="border-t border-border">
-        <div className="container py-5 text-center text-xs text-muted-foreground">
-          FEAE Aragón 2026 — Todos los derechos reservados.
+        <div className="container py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
+          <p>FEAE Aragón 2026 — Todos los derechos reservados.</p>
+          <nav aria-label="Legal" className="flex items-center gap-4">
+            <Link to="/aviso-legal" className="hover:text-primary">Aviso Legal</Link>
+            <Link to="/privacidad" className="hover:text-primary">Política de Privacidad</Link>
+            <Link to="/privacidad#cookies" className="hover:text-primary">Cookies</Link>
+          </nav>
         </div>
       </div>
     </footer>
