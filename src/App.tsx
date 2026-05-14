@@ -11,6 +11,8 @@ import Noticias from "./pages/Noticias";
 import Jornadas from "./pages/Jornadas";
 import Revistas from "./pages/Revistas";
 import Contacto from "./pages/Contacto";
+import AvisoLegal from "./pages/AvisoLegal";
+import Privacidad from "./pages/Privacidad";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -30,6 +32,8 @@ const App = () => (
             <Route path="/jornadas" element={<Jornadas />} />
             <Route path="/revistas" element={<Revistas />} />
             <Route path="/contacto" element={<Contacto />} />
+            <Route path="/aviso-legal" element={<AvisoLegal />} />
+            <Route path="/privacidad" element={<Privacidad />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
