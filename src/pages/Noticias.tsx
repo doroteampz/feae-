@@ -16,6 +16,10 @@ import zaitegi3 from "@/assets/news-zaitegi-3.jpg";
 import elizondo1 from "@/assets/news-elizondo-1.png";
 import elizondo2 from "@/assets/news-elizondo-2.png";
 import elizondo3 from "@/assets/news-elizondo-3.png";
+import autismos1 from "@/assets/news-autismos-1.jpg";
+import autismos2 from "@/assets/news-autismos-2.jpg";
+import interforo1 from "@/assets/news-interforo-1.png";
+import interforo2 from "@/assets/news-interforo-2.jpg";
 
 type NewsItem = {
   title: string;
@@ -29,6 +33,60 @@ type NewsItem = {
 };
 
 const news: NewsItem[] = [
+  {
+    title: "II Jornadas: Hablemos de autismos",
+    date: "15-16/05/2026",
+    tag: "Encuentro",
+    img: autismos1,
+    imgAlt: "Cartel de las II Jornadas Hablemos de Autismos 2026",
+    text: "FEAE Aragón participa en las II Jornadas “Hablemos de autismos” organizadas por TEAdir Aragón y la asociación Nudos en el Centro Joaquín Roncal de Zaragoza.",
+    gallery: [
+      { src: autismos1, alt: "Cartel de las II Jornadas Hablemos de Autismos 2026 con la participación de Carmen López Donoso" },
+      { src: autismos2, alt: "Mesa redonda 'Entre Varios' durante las II Jornadas Hablemos de Autismos en el Centro Joaquín Roncal" },
+    ],
+    details: (
+      <div className="space-y-4 text-sm leading-relaxed text-foreground">
+        <p>
+          FEAE Aragón, entidad invitada para participar en las II Jornadas “Hablemos de autismos”
+          organizadas el 15 y 16 de mayo por TEAdir Aragón y asociación Nudos en el Centro Joaquín
+          Roncal de Zaragoza.
+        </p>
+        <p>
+          Nuestra socia, Carmen López, directora del equipo especializado de orientación educativa
+          TEA Aragón, ha participado en la mesa redonda “Entre varios” junto a Esteban Morilla,
+          Jefe de Servicio de Psiquiatría Infantil del centro hospitalario de Burdeos y Mamen
+          Horno, profesora e investigadora de la Universidad de Zaragoza.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Interforo Antigua Corona de Aragón",
+    date: "16/05/2026",
+    tag: "Encuentro",
+    img: interforo1,
+    imgAlt: "Programa del Interforo FEAE Antigua Corona de Aragón 2026 en Valencia",
+    text: "El IES Districte Marítim de Valencia ha celebrado el Interforo FEAE Antigua Corona de Aragón, que reúne anualmente a los foros de Valencia, Cataluña, Baleares y Aragón.",
+    gallery: [
+      { src: interforo1, alt: "Programa del Interfòrums 2026 'La convivencia y el bienestar en los centros educativos'" },
+      { src: interforo2, alt: "Representantes de los foros de Valencia, Cataluña, Baleares y Aragón en el Interforo 2026" },
+    ],
+    details: (
+      <div className="space-y-4 text-sm leading-relaxed text-foreground">
+        <p>
+          El IES Distrits Maritims de Valencia ha celebrado el 16 de mayo el Interforo FEAE Antigua
+          Corona de Aragón que reúne anualmente a representantes de los foros de Valencia,
+          Cataluña, Baleares y Aragón.
+        </p>
+        <p>
+          La temática elegida “La convivencia y el bienestar en los centros educativos” ha
+          permitido compartir distintas perspectivas sobre de la situación actual que se vive en
+          los centros, actuaciones de cada comunidad, cuestiones normativas y buenas prácticas
+          llevadas a cabo por centros e Inspección educativa.
+        </p>
+      </div>
+    ),
+  },
   {
     title: "Convenio con CIFICE (Universidad de Zaragoza)",
     date: "2026",
