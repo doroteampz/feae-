@@ -71,7 +71,7 @@ const Jornadas = () => (
             "Miradas de la Educación Inclusiva"
           </span>
           <span className="block mt-3">
-            Diálogos y estrategias para construir comunidades educativas que incluyan, acojan y transformen.
+            Diálogos y estrategias para construir comunidades educativas que cuiden, incluyan, acojan y transformen.
           </span>
           <span className="block mt-3 font-semibold">
             23 y 24 de octubre de 2026 · Zaragoza
