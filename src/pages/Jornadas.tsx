@@ -16,7 +16,7 @@ import logoPsicopedagogia from "@/assets/logo-psicopedagogia.jpeg";
 import logoTeadir from "@/assets/logo-teadir.jpg";
 import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
 import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
-import logoImacUnizar from "@/assets/imac-unizar.jpeg.asset.json";
+import logoImacUnizar from "@/assets/imac-unizar.jpeg";
 
 const jornadasJsonLd = {
   "@context": "https://schema.org",
