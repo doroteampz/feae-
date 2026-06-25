@@ -6,16 +6,16 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Seo } from "@/components/site/Seo";
-import fondoAsset from "@/assets/fondo.png.asset.json";
-import posterAsset from "@/assets/miradas-poster.jpeg.asset.json";
-import logoCifice from "@/assets/logo-cifice.png.asset.json";
-import logoFacultad from "@/assets/logo-facultad-educacion.png.asset.json";
-import logoEdelvives from "@/assets/logo-edelvives.jpg.asset.json";
-import logoFeaeEuropeo from "@/assets/logo-feae-europeo.jpeg.asset.json";
-import logoPsicopedagogia from "@/assets/logo-psicopedagogia.jpeg.asset.json";
-import logoTeadir from "@/assets/logo-teadir.jpg.asset.json";
-import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png.asset.json";
-import logoPatrocinadores from "@/assets/patrocinadores.jpeg.asset.json";
+import fondoAsset from "@/assets/fondo.png";
+import posterAsset from "@/assets/miradas-poster.jpeg";
+import logoCifice from "@/assets/logo-cifice.png";
+import logoFacultad from "@/assets/logo-facultad-educacion.png";
+import logoEdelvives from "@/assets/logo-edelvives.jpg";
+import logoFeaeEuropeo from "@/assets/logo-feae-europeo.jpeg";
+import logoPsicopedagogia from "@/assets/logo-psicopedagogia.jpeg";
+import logoTeadir from "@/assets/logo-teadir.jpg";
+import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
+import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
 import logoImacUnizar from "@/assets/imac-unizar.jpeg.asset.json";
 
 const jornadasJsonLd = {
@@ -99,8 +99,8 @@ const Jornadas = () => (
             <div>
               <p className="text-xs uppercase tracking-wider text-primary/70 font-semibold mb-3">Organiza</p>
               <div className="flex flex-wrap items-center gap-4">
-                <img src={logoFeaeEuropeo.url} alt="FEAE — Fórum Europeo de Administradores de la Educación" className="h-12 w-auto object-contain" loading="lazy" />
-                <img src={logoCifice.url} alt="CIFICE — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
+                <img src={logoFeaeEuropeo} alt="FEAE — Fórum Europeo de Administradores de la Educación" className="h-12 w-auto object-contain" loading="lazy" />
+                <img src={logoCifice} alt="CIFICE — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
               </div>
             </div>
             <div>
