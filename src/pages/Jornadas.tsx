@@ -39,9 +39,9 @@ const jornadasJsonLd = {
   organizer: {
     "@type": "Organization",
     name: "FEAE Aragón",
-    url: "https://feae-aragon.lovable.app/",
+    url: "https://feaearagon.org",
   },
-  url: "https://feae-aragon.lovable.app/jornadas",
+  url: "https://feaearagon.org/jornadas",
 };
 
 const Jornadas = () => (
@@ -55,7 +55,7 @@ const Jornadas = () => (
     <section
       className="relative border-b border-border overflow-hidden"
       style={{
-        backgroundImage: `url(${fondoAsset.url})`,
+        backgroundImage: `url(${fondoAsset})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
