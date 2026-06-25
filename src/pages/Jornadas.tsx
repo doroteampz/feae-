@@ -106,25 +106,25 @@ const Jornadas = () => (
             <div>
               <p className="text-xs uppercase tracking-wider text-primary/70 font-semibold mb-3">Patrocina</p>
               <div className="flex flex-col items-center gap-4">
-                <img src={logoPatrocinadores.url} alt="Cátedra Caja Rural de Teruel · Fundación Tervalis · Universidad de Zaragoza · Caja Rural de Teruel · Fundación Tervalis" className="h-16 w-auto object-contain" loading="lazy" />
-                <img src={logoImacUnizar.url} alt="iMAC Talento · Spin-off Universidad de Zaragoza" className="h-16 w-auto object-contain" loading="lazy" />
+                <img src={logoPatrocinadores} alt="Cátedra Caja Rural de Teruel · Fundación Tervalis · Universidad de Zaragoza · Caja Rural de Teruel · Fundación Tervalis" className="h-16 w-auto object-contain" loading="lazy" />
+                <img src={logoImacUnizar} alt="iMAC Talento · Spin-off Universidad de Zaragoza" className="h-16 w-auto object-contain" loading="lazy" />
               </div>
             </div>
           </div>
           <div>
             <p className="text-xs uppercase tracking-wider text-primary/70 font-semibold mb-3">Colabora</p>
             <div className="flex flex-wrap items-center gap-4">
-              <img src={logoEdelvives.url} alt="Grupo Edelvives" className="h-12 w-auto object-contain" loading="lazy" />
-              <img src={logoFacultad.url} alt="Facultad de Educación — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
-              <img src={logoCatedraEdelvives.url} alt="Cátedra Fundación Edelvives — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
-              <img src={logoPsicopedagogia.url} alt="Asociación Aragonesa de Psicopedagogía" className="h-12 w-auto object-contain" loading="lazy" />
-              <img src={logoTeadir.url} alt="TEAdir Aragón" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoEdelvives} alt="Grupo Edelvives" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoFacultad} alt="Facultad de Educación — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoCatedraEdelvives} alt="Cátedra Fundación Edelvives — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoPsicopedagogia} alt="Asociación Aragonesa de Psicopedagogía" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoTeadir} alt="TEAdir Aragón" className="h-12 w-auto object-contain" loading="lazy" />
             </div>
           </div>
         </div>
         <div className="mt-8 flex justify-center">
           <a
-            href="#"
+            href="https://forms.gle/tyRLATsYN5tK7DQu9"
             className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-card hover:bg-primary/90 transition-colors"
           >
             Inscripción en las Jornadas →
@@ -492,7 +492,7 @@ const Jornadas = () => (
 
     <section className="container pb-16 max-w-3xl">
       <img
-        src={posterAsset.url}
+        src={posterAsset}
         alt="Cartel oficial XXXIII Jornadas Estatales FEAE — Miradas de la Educación Inclusiva, 23 y 24 de octubre de 2026, Zaragoza"
         className="w-full h-auto rounded-lg shadow-card"
         loading="lazy"
