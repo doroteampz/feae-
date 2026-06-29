@@ -12,7 +12,7 @@ import logoCifice from "@/assets/logo-cifice.png";
 import logoFacultad from "@/assets/logo-facultad-educacion.png";
 import logoEdelvives from "@/assets/logo-edelvives.jpg";
 import logoFeaeEuropeo from "@/assets/logo-feae-europeo.jpeg";
-import plantillaPoster from "@/assets/plantilla-poster.pptx";
+import plantillaPoster from "@/public/plantilla-poster.pptx";
 import logoPsicopedagogia from "@/assets/logo-psicopedagogia.jpeg";
 import logoTeadir from "@/assets/logo-teadir.jpg";
 import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
