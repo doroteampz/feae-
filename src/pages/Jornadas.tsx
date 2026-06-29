@@ -17,6 +17,7 @@ import logoTeadir from "@/assets/logo-teadir.jpg";
 import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
 import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
 import logoImacUnizar from "@/assets/imac-unizar.jpeg";
+import logoGobierno from "@/assets/logo-gobierno.jfif";
 
 const jornadasJsonLd = {
   "@context": "https://schema.org",
@@ -119,6 +120,7 @@ const Jornadas = () => (
               <img src={logoCatedraEdelvives} alt="Cátedra Fundación Edelvives — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoPsicopedagogia} alt="Asociación Aragonesa de Psicopedagogía" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoTeadir} alt="TEAdir Aragón" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoGobierno} alt="Gobierno de Aragón" className="h-12 w-auto object-contain" loading="lazy" />
             </div>
           </div>
         </div>
