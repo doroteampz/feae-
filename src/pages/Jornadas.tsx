@@ -425,7 +425,7 @@ const Jornadas = () => (
                 al menos.
               </p>
               <ul className="mt-3 space-y-2 list-disc pl-5">
-                <li>La organización facilita la <a href="/plantilla-poster.ppt" download className="font-bold text-primary hover:underline">descarga opcional de plantilla&nbsp;(click aquí)</a>&nbsp;.</li>
+                <li>La organización facilita la <a href="/plantilla-poster.pptx" download className="font-bold text-primary hover:underline">descarga opcional de plantilla&nbsp;(click aquí)</a>&nbsp;.</li>
                 <li>Dimensiones del póster: <strong className="text-foreground">100 cm (horizontal) × 70 cm (vertical)</strong>.</li>
                 <li>La impresión y/o difusión correrá a cargo de la organización.</li>
                 <li>Los autores deberán remitir el póster en formato PDF mediante el formulario habilitado, hasta las <strong className="text-foreground">14:00 h del 6 de septiembre de 2026</strong>.</li>
