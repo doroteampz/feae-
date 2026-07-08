@@ -7,7 +7,8 @@ const publications = [
   { icon: FileText, title: "Revista Forum N.º 48", desc: "Última edición de la revista nacional FEAE.", href: "/docs/ForumAragon-48.pdf", action: "Leer" },
   { icon: FileText, title: "Revista Forum N.º 47", desc: "Edición anterior de la revista nacional FEAE.", href: "/docs/ForumAragon-47-Funcion-tutorial.pdf", action: "Leer" },
   { icon: FileText, title: "Revista Forum N.º 46", desc: "Edición anterior de la revista nacional.", href: "/docs/ForumAragon-46-Relacion-familia-escuela.pdf", action: "Leer" },
-  { icon: BookOpen, title: "Revista DYLE", desc: "Dirección y Liderazgo Educativo.", href: "https://dyle.es/wp-content/uploads/flipbook/29/mobile/index.html#p=1", action: "Visitar" },
+  { icon: BookOpen, title: "Revista DYLE N.º29 ", desc: "Dirección y Liderazgo Educativo.", href: "https://dyle.es/wp-content/uploads/flipbook/29/mobile/index.html#p=1", action: "Visitar" },
+  { icon: BookOpen, title: "Revista DYLE N.º30", desc: "Dirección y Liderazgo Educativo.", href: "https://dyle.es/wp-content/uploads/flipbook/30/mobile/index.html", action: "Visitar" },
 ];
 
 const Revistas = () => (
