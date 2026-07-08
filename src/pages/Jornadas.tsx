@@ -489,6 +489,54 @@ const Jornadas = () => (
             </div>
           </AccordionContent>
         </AccordionItem>
+        
+                {/* 6. Alojamiento */}
+        <AccordionItem value="item-6" className="border border-border rounded-lg px-5 bg-card shadow-card">
+          <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
+            6. Alojamiento
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">Alojamientos colaboradores</h4>
+              <div className="space-y-4">
+                <div>
+                  <p className="font-semibold text-foreground">Hotel Don Jaime</p>
+                  <p className="text-sm">Calle Don Jaime I, 54-56 (50001, Zaragoza).</p>
+                  <p className="mt-2">
+                    Se reserva a través de su web, introduciendo el código promocional (Código: FEAE) con un 15% adicional al 10% que ya ofrece la página al registrarse.
+                  </p>
+                  <p className="mt-2">
+                    Entrar en la web{" "}
+                    <a
+                      href="https://www.hoteldonjaime54.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold text-primary hover:underline"
+                    >
+                      www.hoteldonjaime54.com
+                    </a>{" "}
+                    e introducir FEAE en el recuadro que pone Promoción Código. Automáticamente se aplicará el descuento y podrán elegir la tarifa que más les convenga.
+                  </p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Hotel Alfonso</p>
+                  <p className="text-sm">C. del Coso, 15-17, 19, (50003, Zaragoza).</p>
+                  <p className="mt-2">
+                    <a
+                      href="https://www.palafoxhoteles.com/es/hoteles-en-zaragoza/hotel-alfonso"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-bold text-primary hover:underline"
+                    >
+                      https://www.palafoxhoteles.com/es/hoteles-en-zaragoza/hotel-alfonso
+                    </a>
+                  </p>
+                  <p className="mt-2">Referencia: Jornadas FEAE</p>
+                </div>
+              </div>
+            </div>
+          </AccordionContent>
+        </AccordionItem>
       </Accordion>
     </section>
 
