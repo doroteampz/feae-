@@ -220,7 +220,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">11:00</strong> · Miradas que comparten: Conversatorio "Inclusión, alianzas estratégicas más allá de la escuela y aprendizaje a lo largo de la vida".</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>Modera: Emilio Veiga Río, Vicepresidente de FEAE Galicia.</li>
-                    <li>Participantes: TEAdir, Plena Inclusión, Federaciones de Familias FAPAR y FECAPA Aragón, Secretariado Gitano, Programa de Mediación Intercultural de CAREI.</li>
+                    <li>Participantes: TEAdir Aragón, Plena Inclusión, Federaciones de Familias FAPAR y FECAPA Aragón, Secretariado Gitano, Programa de Mediación Intercultural de CAREI.</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">11:45</strong> · Pausa-café.</p></li>
