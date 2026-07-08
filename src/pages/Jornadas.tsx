@@ -115,7 +115,7 @@ const Jornadas = () => (
           <div>
             <p className="text-xs uppercase tracking-wider text-primary/70 font-semibold mb-3">Colabora</p>
             <div className="flex flex-wrap items-center gap-4">
-              <img src={logoEdelvives} alt="Grupo Edelvives" className="h-12 w-auto object-contain" loading="lazy" />
+              <img src={logoEdelvives} alt="Grupo Edelvives" className="h-16 w-auto object-contain" loading="lazy" />
               <img src={logoFacultad} alt="Facultad de Educación — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoCatedraEdelvives} alt="Cátedra Fundación Edelvives — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoPsicopedagogia} alt="Asociación Aragonesa de Psicopedagogía" className="h-12 w-auto object-contain" loading="lazy" />
