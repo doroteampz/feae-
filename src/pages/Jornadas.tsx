@@ -119,7 +119,6 @@ const Jornadas = () => (
               <img src={logoCatedraEdelvives} alt="Cátedra Fundación Edelvives — Universidad de Zaragoza" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoPsicopedagogia} alt="Asociación Aragonesa de Psicopedagogía" className="h-12 w-auto object-contain" loading="lazy" />
               <img src={logoTeadir} alt="TEAdir Aragón" className="h-12 w-auto object-contain" loading="lazy" />
-              <img src={logoGobierno} alt="Gobierno de Aragón" className="h-12 w-auto object-contain" loading="lazy" />
             </div>
           </div>
         </div>
