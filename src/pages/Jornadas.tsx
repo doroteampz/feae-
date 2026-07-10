@@ -17,7 +17,7 @@ import logoTeadir from "@/assets/logo-teadir.jpg";
 import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
 import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
 import logoImacUnizar from "@/assets/imac-unizar.jpeg";
-/*import logoGobierno from "@/assets/logo-gobierno.jfif";*/
+  /*import logoGobierno from "@/assets/logo-gobierno.jfif";*/
 
 const jornadasJsonLd = {
   "@context": "https://schema.org",
