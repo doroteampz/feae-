@@ -444,17 +444,16 @@ const Jornadas = () => (
             <div>
               <h4 className="font-semibold text-foreground mb-2">Comité Científico</h4>
               <ul className="space-y-1 list-disc pl-5">
-                <li>Sandra Vázquez Toledo, Profesora Titular de Universidad en la Universidad de Zaragoza y Doctora en Ciencias de la Educación.</li> 
-                <li>Susana Vázquez Martínez, Doctora en Ciencias de la Educación y profesora del área de Didáctica de las Matemáticas en la Universidade da Coruña.</li> 
-                <li>Begoña Codesal Patiño, Asesora del Centro Autonómico de Formación e Innovación de Santiago de Compostela.</li> 
-                <li>José Antonio Ortiz López, Inspector jefe adjunto del Cuerpo de Inspectores de la Consejería de Educación de Cantabria.</li> 
-                <li>P. Jara Serrano García, Inspectora de Educación del Servicio Provincial de Huesca.</li> 
-                <li>Juan Salamé Sala, Profesor Colaborador del Grupo de Innovación Docente Prácticas Profesionales (GIP PiP).</li> 
-                <li>Carlos Hué García, Doctor en CC de la Educación por la Universidad de Barcelona.</li> 
-                <li>Mercedes González Sanmamé, Catedrática de Didáctica y Organización Escolar en la Universidad da Coruña.</li> 
-                <li>Nuria Rebollo Quintela, Profesora Titular del área de Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li> 
-                <li>Luisa Losada Puente, Profesora Titular Universidad Dpto. Didácticas Específicas y Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li> 
-                <li>
+                <li>Sandra Vázquez Toledo, Profesora Titular de Universidad en la Universidad de Zaragoza y Doctora en Ciencias de la Educación.</li>
+                <li>Susana Vázquez Martínez, Doctora en Ciencias de la Educación y profesora del área de Didáctica de las Matemáticas en la Universidade da Coruña.</li>
+                <li>Begoña Codesal Patiño, Asesora del Centro Autonómico de Formación e Innovación de Santiago de Compostela.</li>
+                <li>José Antonio Ortiz López, Inspector jefe adjunto del Cuerpo de Inspectores de la Consejería de Educación de Cantabria.</li>
+                <li>P. Jara Serrano García, Inspectora de Educación del Servicio Provincial de Huesca.</li>
+                <li>Juan Salamé Sala, Profesor Colaborador del Grupo de Innovación Docente Prácticas Profesionales (GIP PiP).</li>
+                <li>Carlos Hué García, Doctor en CC de la Educación por la Universidad de Barcelona.</li>
+                <li>Mercedes González Sanmamé, Catedrática de Didáctica y Organización Escolar en la Universidad da Coruña.</li>
+                <li>Nuria Rebollo Quintela, Profesora Titular del área de Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li>
+                <li>Luisa Losada Puente, Profesora Titular Universidad Dpto. Didácticas Específicas y Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li>
               </ul>
             </div>
 
