@@ -412,7 +412,7 @@ const Jornadas = () => (
         {/* 5. Participación: pósteres y publicaciones */}
         <AccordionItem value="item-5" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            5. Participación
+            5. Participación: pósteres y publicaciones
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
