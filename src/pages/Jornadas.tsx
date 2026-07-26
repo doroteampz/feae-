@@ -236,7 +236,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">13:00</strong> · Miradas que garantizan derechos y generan condiciones: Conversatorio "Políticas Educativas, Formación del profesorado y nuevos modelos de inclusión hacia la transformación".</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>Modera: FEAE Cantabria (Azucena Gozalo Ausín).</li>
-                    <li>Participantes: Subdirección Cooperación Territorial del MEFPD; Carmen Romero Ureña (Inspectora y Profesora colaboradora de la UVA de FEAE CyL); José Sánchez Santamaría (Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE CLM); Mª José Cesena Santiago, Direcció de l'Àrea Educació Inclusiva del Consorci Educació de Barcelona; Paloma Canduela (Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria).</li>
+                    <li>Participantes: Lucio Calleja Bachiller, Subdirector General de Cooperación Territorial del MEFPD; Carmen Romero Ureña (Inspectora y Profesora colaboradora de la UVA de FEAE CyL); José Sánchez Santamaría (Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE CLM); Mª José Cesena Santiago, Direcció de l'Àrea Educació Inclusiva del Consorci Educació de Barcelona; Paloma Canduela (Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria).</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">14:00</strong> · Comida-encuentro para participantes inscritos. Espacio Aula Jardín del CIFICE.</p></li>
@@ -407,7 +407,7 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
 
-        {/* 5. Participación */}
+        {/* 5. Participación: pósteres y publicaciones */}
         <AccordionItem value="item-5" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
             5. Participación
@@ -442,16 +442,17 @@ const Jornadas = () => (
             <div>
               <h4 className="font-semibold text-foreground mb-2">Comité Científico</h4>
               <ul className="space-y-1 list-disc pl-5">
-                <li>Sandra Vázquez Toledo, Secretaria de CIFICE y Co-directora de la Cátedra F. Edelvives del Cuidado.</li>
-                <li>Susana Vázquez Martínez, Presidenta de FEAE Galicia.</li>
-                <li>Begoña Codesal Patiño, FEAE Galicia.</li>
-                <li>José Antonio Ortiz López, Presidente de FEAE Cantabria.</li>
-                <li>Jara P. Serrano García, FEAE Aragón.</li>
-                <li>Juan Salamé Sala, UNED y FEAE Aragón.</li>
-                <li>Carlos Hué García, Asociación Aragonesa de Psicopedagogía.</li>
-                <li>Mercedes González Sanmamé, Facultad de Ciencias de la Educación da Coruña.</li>
-                <li>Nuria Rebollo Quintela, Facultad de Ciencias de la Educación da Coruña.</li>
-                <li>Luisa Losada Puente, Facultad de Ciencias de la Educación da Coruña.</li>
+                <li>Sandra Vázquez Toledo, Profesora Titular de Universidad en la Universidad de Zaragoza y Doctora en Ciencias de la Educación.</li> 
+                <li>Susana Vázquez Martínez, Doctora en Ciencias de la Educación y profesora del área de Didáctica de las Matemáticas en la Universidade da Coruña.</li> 
+                <li>Begoña Codesal Patiño, Asesora del Centro Autonómico de Formación e Innovación de Santiago de Compostela.</li> 
+                <li>José Antonio Ortiz López, Inspector jefe adjunto del Cuerpo de Inspectores de la Consejería de Educación de Cantabria.</li> 
+                <li>P. Jara Serrano García, Inspectora de Educación del Servicio Provincial de Huesca.</li> 
+                <li>Juan Salamé Sala, Profesor Colaborador del Grupo de Innovación Docente Prácticas Profesionales (GIP PiP).</li> 
+                <li>Carlos Hué García, Doctor en CC de la Educación por la Universidad de Barcelona.</li> 
+                <li>Mercedes González Sanmamé, Catedrática de Didáctica y Organización Escolar en la Universidad da Coruña.</li> 
+                <li>Nuria Rebollo Quintela, Profesora Titular del área de Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li> 
+                <li>Luisa Losada Puente, Profesora Titular Universidad Dpto. Didácticas Específicas y Métodos de Investigación y Diagnóstico en Educación de la Universidade da Coruña.</li> 
+                <li>
               </ul>
             </div>
 
