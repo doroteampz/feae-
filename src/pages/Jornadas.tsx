@@ -17,6 +17,7 @@ import logoTeadir from "@/assets/logo-teadir.jpg";
 import logoCatedraEdelvives from "@/assets/logo-catedra-edelvives.png";
 import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
 import logoImacUnizar from "@/assets/imac-unizar.jpeg";
+import logoEboca from "@/assets/eboca logo.png";
 
 const jornadasJsonLd = {
   "@context": "https://schema.org",
@@ -108,6 +109,7 @@ const Jornadas = () => (
               <div className="flex flex-col items-center gap-4">
                 <img src={logoPatrocinadores} alt="Cátedra Caja Rural de Teruel · Fundación Tervalis · Universidad de Zaragoza · Caja Rural de Teruel · Fundación Tervalis" className="h-16 w-auto object-contain" loading="lazy" />
                 <img src={logoImacUnizar} alt="iMAC Talento · Spin-off Universidad de Zaragoza" className="h-16 w-auto object-contain" loading="lazy" />
+                <img src={logoEboca} alt="Eboca" className="h-16 w-auto object-contain" loading="lazy" />
               </div>
             </div>
           </div>
