@@ -106,7 +106,7 @@ const Jornadas = () => (
             </div>
             <div>
               <p className="text-xs uppercase tracking-wider text-primary/70 font-semibold mb-3">Patrocina</p>
-              <div className="flex flex-col items-center gap-4">
+              <div className="flex flex-wrap items-center gap-4">
                 <img src={logoPatrocinadores} alt="Cátedra Caja Rural de Teruel · Fundación Tervalis · Universidad de Zaragoza · Caja Rural de Teruel · Fundación Tervalis" className="h-16 w-auto object-contain" loading="lazy" />
                 <img src={logoImacUnizar} alt="iMAC Talento · Spin-off Universidad de Zaragoza" className="h-16 w-auto object-contain" loading="lazy" />
                 <img src={logoEboca} alt="Eboca" className="h-16 w-auto object-contain" loading="lazy" />
@@ -220,7 +220,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">11:00</strong> · Miradas que comparten: Conversatorio "Inclusión, alianzas estratégicas más allá de la escuela y aprendizaje a lo largo de la vida".</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>Modera: Emilio Veiga Río, Vicepresidente de FEAE Galicia.</li>
-                    <li>Participantes: TEAdir Aragón, Plena Inclusión, Federaciones de Familias FAPAR y FECAPA Aragón, Secretariado Gitano, Programa de Mediación Intercultural de CAREI.</li>
+                    <li>Participantes: María Jesús Sanjuán, Presidenta de TEAdir Aragón; Esteban Corsino Roche, Coordinador del Departamento de Ciudadanía de Plena Inclusión Aragón; Nieves Burón Díez, Secretaria Técnica de FAPAR; Miguel Ángel Sarralde Gómez, Presidente de FECAPA Aragón; Alba Bostaji López, Orientadora educativa en la Fundación Secretariado Gitano; Mariama Souare Touré:Traductora y mediadora en el Programa de Mediación Intercultural de CAREI, del Gobierno de Aragón.</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">11:45</strong> · Pausa-café.</p></li>
