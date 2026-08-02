@@ -216,7 +216,7 @@ const Jornadas = () => (
                   <p className="italic text-primary/80">Culturas: "Cómo pensamos, sentimos y miramos la educación".</p>
                 </li>
                 <li>
-                  <p><strong className="text-foreground">10:00</strong> · Miradas que acogen: Ponencia. <em>El fin de la educación. ¿Otra educación es posible?</em></p>
+                  <p><strong className="text-foreground">10:00</strong> · Miradas que acogen: Ponencia de Carlos Magro Mazo. <em>“Liderar la inclusión: comunidades educativas que aprenden y se transforman. ¿Otra educación es posible?"</em></p>
                 </li>
                 <li>
                   <p><strong className="text-foreground">11:00</strong> · Miradas que comparten: Conversatorio "Inclusión, alianzas estratégicas más allá de la escuela y aprendizaje a lo largo de la vida".</p>
@@ -428,7 +428,7 @@ const Jornadas = () => (
               </p>
               <ul className="mt-3 space-y-2 list-disc pl-5">
                 <li>La organización facilita la <a href="/docs/plantilla-poster1.pptx" download="Plantilla_Poster_FEAE_Aragon.pptx" className="font-bold text-primary hover:underline">descarga opcional de plantilla&nbsp;(click aquí)</a>&nbsp;.</li>
-                <li>Dimensiones del póster: <strong className="text-foreground">100 cm (horizontal) × 70 cm (vertical)</strong>.</li>
+                <li>Dimensiones del póster: <strong className="text-foreground"> 70 cm (vertical) x 100 cm (horizontal)</strong>.</li>
                 <li>La impresión y/o difusión correrá a cargo de la organización.</li>
                 <li>Los autores deberán remitir el póster en formato PDF mediante el formulario habilitado, hasta las <strong className="text-foreground">14:00 h del 6 de septiembre de 2026</strong>.</li>
                 <li>Formatos admitidos para la elaboración: PDF, PPTX u ODP.</li>
