@@ -222,7 +222,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">11:00</strong> · Miradas que comparten: Conversatorio "Inclusión, alianzas estratégicas más allá de la escuela y aprendizaje a lo largo de la vida".</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>Modera: Emilio Veiga Río, Vicepresidente de FEAE Galicia.</li>
-                    <li>Participantes: María Jesús Sanjuán, Presidenta de TEAdir Aragón; Esteban Corsino Roche, Coordinador del Departamento de Ciudadanía de Plena Inclusión Aragón; Nieves Burón Díez, Secretaria Técnica de FAPAR; Miguel Ángel Sarralde Gómez, Presidente de FECAPA Aragón; Alba Bostaji López, Orientadora educativa en la Fundación Secretariado Gitano; Mariama Souare Touré:Traductora y mediadora en el Programa de Mediación Intercultural de CAREI, del Gobierno de Aragón.</li>
+                    <li>Participantes: María Jesús Sanjuán, Presidenta de TEAdir Aragón; Esteban Corsino Roche, Coordinador del Departamento de Ciudadanía de Plena Inclusión Aragón; Nieves Burón Díez, Secretaria Técnica de FAPAR; Miguel Ángel Sarralde Gómez, Presidente de FECAPARAGÓN; Alba Bostaji López, Orientadora educativa en la Fundación Secretariado Gitano; Mariama Souare Touré:Traductora y mediadora en el Programa de Mediación Intercultural de CAREI, del Gobierno de Aragón.</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">11:45</strong> · Pausa-café.</p></li>
