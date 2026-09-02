@@ -48,7 +48,7 @@ const ponentes: Person[] = [
   {
     name: "Coral Elizondo Carmona",
     role: "Experta en educación inclusiva. Maestra, psicóloga, orientadora y escritora.",
-    img: coralElizondo.url,
+    img: coralElizondo,
   },
   {
     name: "Alberto Quílez Robres",
