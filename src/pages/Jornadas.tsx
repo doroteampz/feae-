@@ -19,6 +19,191 @@ import logoPatrocinadores from "@/assets/patrocinadores.jpeg";
 import logoImacUnizar from "@/assets/imac-unizar.jpeg";
 import logoEboca from "@/assets/eboca logo.png";
 import logoGobierno from "@/assets/logo gobierno de aragon.png";
+import carlosMagro from "@/assets/ponente-carlos-magro.jpg.asset.json";
+import coralElizondo from "@/assets/ponente-coral-elizondo.jpg.asset.json";
+import albertoQuilez from "@/assets/ponente-alberto-quilez.jpg.asset.json";
+import emilioVeiga from "@/assets/conv-emilio-veiga.jpg.asset.json";
+import azucenaGozalo from "@/assets/conv-azucena-gozalo.png.asset.json";
+import palomaCanduela from "@/assets/conv-paloma-canduela.jpg.asset.json";
+import tallerConcepcionMerida from "@/assets/taller-concepcion-merida.jpg.asset.json";
+import tallerSaraArasaac from "@/assets/taller-sara-arasaac.jpg.asset.json";
+import tallerLuciaBallesteros from "@/assets/taller-lucia-ballesteros.jpg.asset.json";
+import tallerMarDeAragon from "@/assets/taller-mar-de-aragon.png.asset.json";
+import tallerAranchaPablos from "@/assets/taller-arancha-pablos.jpg.asset.json";
+import tallerAngelsCadena from "@/assets/taller-angels-cadena.jpg.asset.json";
+import estebanCorsino from "@/assets/conv-esteban-corsino.jpg.asset.json";
+import albaBostaji from "@/assets/conv-alba-bostaji.png.asset.json";
+import mariamaSouare from "@/assets/conv-mariama-souare.png.asset.json";
+import joseSantamaria from "@/assets/conv-jose-santamaria.png.asset.json";
+import mariaJoseCesena from "@/assets/conv-maria-jose-cesena.jpg.asset.json";
+
+type Person = { name: string; role: string; img?: string };
+
+const ponentes: Person[] = [
+  {
+    name: "Carlos Magro Mazo",
+    role: "Especialista en innovación educativa, cambio educativo e impacto de la transformación digital en educación.",
+    img: carlosMagro.url,
+  },
+  {
+    name: "Coral Elizondo Carmona",
+    role: "Experta en educación inclusiva. Maestra, psicóloga, orientadora y escritora.",
+    img: coralElizondo.url,
+  },
+  {
+    name: "Alberto Quílez Robres",
+    role: "Especialista en neuropsicología y educación. Doctor en Educación, maestro de educación primaria y psicólogo. Profesor en la Universidad de Zaragoza.",
+    img: albertoQuilez.url,
+  },
+];
+
+const moderador1: Person = {
+  name: "Emilio Veiga Río",
+  role: "Vicepresidente de FEAE Galicia. Moderador.",
+  img: emilioVeiga.url,
+};
+
+const moderador2: Person = {
+  name: "Azucena Gozalo Ausín",
+  role: "FEAE Cantabria. Modera.",
+  img: azucenaGozalo.url,
+};
+
+const conversatorio1: Person[] = [
+  { name: "María Jesús Sanjuán", role: "Presidenta de TEAdir Aragón." },
+  {
+    name: "Esteban Corsino Roche",
+    role: "Coordinador del Departamento de Ciudadanía de Plena Inclusión Aragón.",
+    img: estebanCorsino.url,
+  },
+  { name: "Nieves Burón Díez", role: "Secretaria Técnica de FAPAR." },
+  { name: "Miguel Ángel Sarralde Gómez", role: "Presidente de FECAPA Aragón." },
+  {
+    name: "Alba Bostaji López",
+    role: "Orientadora educativa en la Fundación Secretariado Gitano.",
+    img: albaBostaji.url,
+  },
+  {
+    name: "Mariama Souare Touré",
+    role: "Traductora y mediadora en el Programa de Mediación Intercultural de CAREI.",
+    img: mariamaSouare.url,
+  },
+];
+
+const conversatorio2: Person[] = [
+  {
+    name: "Lucio Calleja Bachiller",
+    role: "Subdirector General de Cooperación Territorial del MEFPD.",
+  },
+  {
+    name: "Carmen Romero Ureña",
+    role: "Inspectora y profesora colaboradora de la UVA, FEAE Castilla y León.",
+  },
+  {
+    name: "José Sánchez Santamaría",
+    role: "Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE Castilla-La Mancha.",
+    img: joseSantamaria.url,
+  },
+  {
+    name: "Mª José Cesena Santiago",
+    role: "Direcció de l'Àrea d'Educació Inclusiva del Consorci d'Educació de Barcelona.",
+    img: mariaJoseCesena.url,
+  },
+  {
+    name: "Paloma Canduela",
+    role: "Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria.",
+    img: palomaCanduela.url,
+  },
+];
+
+const talleres: { title: string; desc: string; people: Person[] }[] = [
+  {
+    title: "Taller 1.",
+    desc: "Escuelas en movimiento: cuando la colaboración impulsa el cambio (Carmen López y Concepción Mérida, Equipo Especializado de Orientación Educativa en Espectro Autista, Aragón).",
+    people: [
+      {
+        name: "Concepción Mérida Caraballo",
+        role: "Equipo Especializado de Orientación Educativa en Espectro Autista, Aragón.",
+        img: tallerConcepcionMerida.url,
+      },
+    ],
+  },
+  {
+    title: "Taller 2.",
+    desc: "Accesibilidad cognitiva. Sistemas Aumentativos y Alternativos de Comunicación (SAAC). ARASAAC.",
+    people: [
+      {
+        name: "Sara",
+        role: "ARASAAC, Portal Aragonés de Sistemas Aumentativos y Alternativos de Comunicación.",
+        img: tallerSaraArasaac.url,
+      },
+    ],
+  },
+  {
+    title: "Taller 3.",
+    desc: "Escuelas abiertas: cuando el centro se abre a la Comunidad. CEIP Pío XII (Huesca).",
+    people: [
+      {
+        name: "Lucía Ballesteros",
+        role: "CEIP Pío XII (Huesca).",
+        img: tallerLuciaBallesteros.url,
+      },
+    ],
+  },
+  {
+    title: "Taller 4.",
+    desc: "Accesibilidad comunicativa: acogida a alumnado inmigrante en aulas AILE. IES Mar de Aragón (Caspe).",
+    people: [
+      {
+        name: "Dirección del IES Mar de Aragón",
+        role: "IES Mar de Aragón (Caspe).",
+        img: tallerMarDeAragon.url,
+      },
+    ],
+  },
+  {
+    title: "Taller 5.",
+    desc: "La inclusión da mucho juego. Editorial Edelvives.",
+    people: [
+      {
+        name: "Arancha Pablos",
+        role: "Editorial Edelvives.",
+        img: tallerAranchaPablos.url,
+      },
+    ],
+  },
+  {
+    title: "Taller 6.",
+    desc: "Innovación educativa contra las desigualdades. Premio internacional 2016 de la convocatoria de Innovación educativa contra las desigualdades (International Symposium: Innovative Pedagogies for Powerful Learning).",
+    people: [
+      {
+        name: "Àngels Cadena",
+        role: "Directora professional i presidenta de FEAEC. CEIP Mercè Rodoreda de Nou Barris (Barcelona).",
+        img: tallerAngelsCadena.url,
+      },
+    ],
+  },
+];
+
+const PersonCard = ({ name, role, img }: Person) => (
+  <div className="text-center">
+    <div className="mx-auto h-28 w-28 overflow-hidden rounded-full bg-muted ring-1 ring-border">
+      {img ? (
+        <img src={img} alt={`Retrato de ${name}`} loading="lazy" className="h-full w-full object-cover" />
+      ) : (
+        <span className="flex h-full w-full items-center justify-center font-serif text-2xl text-primary/50">
+          {name
+            .split(" ")
+            .slice(0, 2)
+            .map((w) => w[0])
+            .join("")}
+        </span>
+      )}
+    </div>
+    <p className="mt-3 font-serif font-bold text-primary leading-snug">{name}</p>
+    <p className="mt-1 text-xs text-muted-foreground leading-relaxed">{role}</p>
+  </div>
+);
 
 const jornadasJsonLd = {
   "@context": "https://schema.org",
@@ -325,10 +510,81 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
 
-        {/* 3. Calendario y sede */}
+        {/* 3. Ponencias, conversatorios y talleres */}
         <AccordionItem value="item-3" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            3. Calendario y sede
+            3. Ponencias, conversatorios y talleres
+          </AccordionTrigger>
+          <AccordionContent className="text-muted-foreground leading-relaxed space-y-8 pt-2">
+            <div>
+              <h4 className="font-semibold text-foreground mb-4">Ponentes</h4>
+              <div className="grid gap-6 sm:grid-cols-3">
+                {ponentes.map((p) => (
+                  <PersonCard key={p.name} {...p} />
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-foreground">
+                Miradas que comparten: Conversatorio "Inclusión, alianzas estratégicas más allá de la
+                escuela y aprendizaje a lo largo de la vida"
+              </h4>
+              <p className="mt-2 text-sm">
+                <strong className="text-foreground">Moderador:</strong> Emilio Veiga Río, Vicepresidente de FEAE Galicia.
+              </p>
+              <div className="mt-4 grid gap-6 sm:grid-cols-3">
+                <PersonCard {...moderador1} />
+                {conversatorio1.map((p) => (
+                  <PersonCard key={p.name} {...p} />
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-foreground">
+                Miradas que garantizan derechos y generan condiciones: Conversatorio "Políticas
+                Educativas, Formación del profesorado y nuevos modelos de inclusión hacia la
+                transformación"
+              </h4>
+              <p className="mt-2 text-sm">
+                <strong className="text-foreground">Modera:</strong> Azucena Gozalo Ausín, FEAE Cantabria.
+              </p>
+              <div className="mt-4 grid gap-6 sm:grid-cols-3">
+                <PersonCard {...moderador2} />
+                {conversatorio2.map((p) => (
+                  <PersonCard key={p.name} {...p} />
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-foreground mb-4">Talleres</h4>
+              <div className="space-y-6">
+                {talleres.map((t) => (
+                  <div key={t.title} className="rounded-lg border border-border p-4">
+                    <p className="text-sm">
+                      <strong className="text-foreground">{t.title}</strong> {t.desc}
+                    </p>
+                    {t.people.length > 0 && (
+                      <div className="mt-4 flex flex-wrap justify-center gap-6">
+                        {t.people.map((p) => (
+                          <PersonCard key={p.name} {...p} />
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </AccordionContent>
+        </AccordionItem>
+
+        {/* 4. Calendario y sede */}
+        <AccordionItem value="item-3" className="border border-border rounded-lg px-5 bg-card shadow-card">
+          <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
+            4. Calendario y sede
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
@@ -351,10 +607,10 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
 
-        {/* 4. Inscripción */}
+        {/* 5. Inscripción */}
         <AccordionItem value="item-4" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            4. Inscripción
+            5. Inscripción
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
@@ -411,10 +667,10 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
 
-        {/* 5. Participación: pósteres y publicaciones */}
+        {/* 6. Participación: pósteres y publicaciones */}
         <AccordionItem value="item-5" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            5. Participación: pósteres y publicaciones
+            6. Participación: pósteres y publicaciones
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
@@ -492,10 +748,10 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
         
-                {/* 6. Alojamiento */}
+                {/* 7. Alojamiento */}
         <AccordionItem value="item-6" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            6. Alojamiento
+            7. Alojamiento
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
