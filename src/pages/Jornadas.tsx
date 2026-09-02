@@ -43,7 +43,7 @@ const ponentes: Person[] = [
   {
     name: "Carlos Magro Mazo",
     role: "Especialista en innovación educativa, cambio educativo e impacto de la transformación digital en educación.",
-    img: carlosMagro.url,
+    img: carlosMagro,
   },
   {
     name: "Coral Elizondo Carmona",
@@ -53,20 +53,20 @@ const ponentes: Person[] = [
   {
     name: "Alberto Quílez Robres",
     role: "Especialista en neuropsicología y educación. Doctor en Educación, maestro de educación primaria y psicólogo. Profesor en la Universidad de Zaragoza.",
-    img: albertoQuilez.url,
+    img: albertoQuilez,
   },
 ];
 
 const moderador1: Person = {
   name: "Emilio Veiga Río",
   role: "Vicepresidente de FEAE Galicia. Moderador.",
-  img: emilioVeiga.url,
+  img: emilioVeiga,
 };
 
 const moderador2: Person = {
   name: "Azucena Gozalo Ausín",
   role: "FEAE Cantabria. Modera.",
-  img: azucenaGozalo.url,
+  img: azucenaGozalo,
 };
 
 const conversatorio1: Person[] = [
@@ -74,19 +74,19 @@ const conversatorio1: Person[] = [
   {
     name: "Esteban Corsino Roche",
     role: "Coordinador del Departamento de Ciudadanía de Plena Inclusión Aragón.",
-    img: estebanCorsino.url,
+    img: estebanCorsino,
   },
   { name: "Nieves Burón Díez", role: "Secretaria Técnica de FAPAR." },
   { name: "Miguel Ángel Sarralde Gómez", role: "Presidente de FECAPA Aragón." },
   {
     name: "Alba Bostaji López",
     role: "Orientadora educativa en la Fundación Secretariado Gitano.",
-    img: albaBostaji.url,
+    img: albaBostaji,
   },
   {
     name: "Mariama Souare Touré",
     role: "Traductora y mediadora en el Programa de Mediación Intercultural de CAREI.",
-    img: mariamaSouare.url,
+    img: mariamaSouare,
   },
 ];
 
@@ -102,17 +102,17 @@ const conversatorio2: Person[] = [
   {
     name: "José Sánchez Santamaría",
     role: "Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE Castilla-La Mancha.",
-    img: joseSantamaria.url,
+    img: joseSantamaria,
   },
   {
     name: "Mª José Cesena Santiago",
     role: "Direcció de l'Àrea d'Educació Inclusiva del Consorci d'Educació de Barcelona.",
-    img: mariaJoseCesena.url,
+    img: mariaJoseCesena,
   },
   {
     name: "Paloma Canduela",
     role: "Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria.",
-    img: palomaCanduela.url,
+    img: palomaCanduela,
   },
 ];
 
@@ -124,7 +124,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Concepción Mérida Caraballo",
         role: "Equipo Especializado de Orientación Educativa en Espectro Autista, Aragón.",
-        img: tallerConcepcionMerida.url,
+        img: tallerConcepcionMerida,
       },
     ],
   },
@@ -135,7 +135,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Sara",
         role: "ARASAAC, Portal Aragonés de Sistemas Aumentativos y Alternativos de Comunicación.",
-        img: tallerSaraArasaac.url,
+        img: tallerSaraArasaac,
       },
     ],
   },
@@ -146,7 +146,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Lucía Ballesteros",
         role: "CEIP Pío XII (Huesca).",
-        img: tallerLuciaBallesteros.url,
+        img: tallerLuciaBallesteros,
       },
     ],
   },
@@ -157,7 +157,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Dirección del IES Mar de Aragón",
         role: "IES Mar de Aragón (Caspe).",
-        img: tallerMarDeAragon.url,
+        img: tallerMarDeAragon,
       },
     ],
   },
@@ -168,7 +168,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Arancha Pablos",
         role: "Editorial Edelvives.",
-        img: tallerAranchaPablos.url,
+        img: tallerAranchaPablos,
       },
     ],
   },
@@ -179,7 +179,7 @@ const talleres: { title: string; desc: string; people: Person[] }[] = [
       {
         name: "Àngels Cadena",
         role: "Directora professional i presidenta de FEAEC. CEIP Mercè Rodoreda de Nou Barris (Barcelona).",
-        img: tallerAngelsCadena.url,
+        img: tallerAngelsCadena,
       },
     ],
   },
