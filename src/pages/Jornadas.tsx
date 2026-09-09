@@ -77,7 +77,7 @@ const conversatorio1: Person[] = [
     img: estebanCorsino,
   },
   { name: "Nieves Burón Díez", role: "Secretaria Técnica de FAPAR." },
-  { name: "Miguel Ángel Sarralde Gómez", role: "Presidente de FECAPA Aragón." },
+  { name: "Miguel Ángel Sarralde Gómez", role: "Presidente de FECAPARAGÓN." },
   {
     name: "Alba Bostaji López",
     role: "Orientadora educativa en la Fundación Secretariado Gitano.",
@@ -667,10 +667,10 @@ const Jornadas = () => (
           </AccordionContent>
         </AccordionItem>
 
-        {/* 6. Participación: pósteres y publicaciones */}
+        {/* 6. Participación: pósteres y publicaciones (hasta 20 de Septiembre) */}
         <AccordionItem value="item-5" className="border border-border rounded-lg px-5 bg-card shadow-card">
           <AccordionTrigger className="text-left font-serif text-lg font-bold text-primary hover:no-underline">
-            6. Participación: pósteres y publicaciones
+            6. Participación: pósteres y publicaciones (hasta 20 de Septiembre)
           </AccordionTrigger>
           <AccordionContent className="text-muted-foreground leading-relaxed space-y-5 pt-2">
             <div>
@@ -686,7 +686,7 @@ const Jornadas = () => (
                 <li>La organización facilita la <a href="/docs/plantilla-poster1.pptx" download="Plantilla_Poster_FEAE_Aragon.pptx" className="font-bold text-primary hover:underline">descarga opcional de plantilla&nbsp;(click aquí)</a>&nbsp;.</li>
                 <li>Dimensiones del póster: <strong className="text-foreground"> 70 cm (vertical) x 100 cm (horizontal)</strong>.</li>
                 <li>La impresión y/o difusión correrá a cargo de la organización.</li>
-                <li>Los autores deberán remitir el póster en formato PDF mediante el formulario habilitado, hasta las <strong className="text-foreground">14:00 h del 6 de septiembre de 2026</strong>.</li>
+                <li>Los autores deberán remitir el póster en formato PDF mediante el formulario habilitado, hasta las <strong className="text-foreground">14:00 h del 20 de septiembre de 2026 (plazo ampliado) </strong>.</li>
                 <li>Formatos admitidos para la elaboración: PDF, PPTX u ODP.</li>
               </ul>
             </div>
