@@ -20,7 +20,7 @@ import logoImacUnizar from "@/assets/imac-unizar.jpeg";
 import logoEboca from "@/assets/eboca logo.png";
 import logoGobierno from "@/assets/logo gobierno de aragon.png";
 import carlosMagro from "@/assets/ponente-carlos-magro.jpeg";
-import coralElizondo from "@/assets/ponente-coral-elizondo.jpg";
+import coralElizondo from "@/assets/ponente-coral-elizondo.jpeg";
 import albertoQuilez from "@/assets/ponente-alberto-quilez.jpg";
 import emilioVeiga from "@/assets/conv-emilio-veiga.jpg";
 import azucenaGozalo from "@/assets/conv-azucena-gozalo.png";
