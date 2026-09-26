@@ -702,8 +702,10 @@ const Jornadas = () => (
             <div>
               <h4 className="font-semibold text-foreground mb-2">Comité Científico</h4>
               <ul className="space-y-1 list-disc pl-5">
+                <li>Eva Vicente Sánchez, Vicedecana de Prácticas, Innovación e Investigación, Facultad de Educación de la Universidad de Zaragoza.</li>
+                <li>Mª José Madonar Pardinilla, Inspectora de Educación del Servicio Provincial de Huesca.</li>
                 <li>Sandra Vázquez Toledo, Profesora Titular de Universidad en la Universidad de Zaragoza y Doctora en Ciencias de la Educación.</li>
-                <li>Susana Vázquez Martínez, Doctora en Ciencias de la Educación y profesora del área de Didáctica de las Matemáticas en la Universidade da Coruña.</li>
+                <li>Susana Vázquez Martínez, Doctora en Ciencias de la Educación y profesora del área de Didáctica de las Matemáticas en la UDC.</li>
                 <li>Begoña Codesal Patiño, Asesora del Centro Autonómico de Formación e Innovación de Santiago de Compostela.</li>
                 <li>José Antonio Ortiz López, Inspector jefe adjunto del Cuerpo de Inspectores de la Consejería de Educación de Cantabria.</li>
                 <li>P. Jara Serrano García, Inspectora de Educación del Servicio Provincial de Huesca.</li>
