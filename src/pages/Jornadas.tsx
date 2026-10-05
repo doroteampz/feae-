@@ -419,7 +419,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">13:00</strong> · Miradas que garantizan derechos y generan condiciones: Conversatorio "Políticas Educativas, Formación del profesorado y nuevos modelos de inclusión hacia la transformación".</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>Modera: FEAE Cantabria (Azucena Gozalo Ausín).</li>
-                    <li>Participantes: Lucio Calleja Bachiller, Subdirector General de Cooperación Territorial del MEFPD; Carmen Romero Ureña (Inspectora y Profesora colaboradora de la UVA de FEAE CyL); José Sánchez Santamaría (Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE CLM); Mª José Cesena Santiago, Direcció de l'Àrea Educació Inclusiva del Consorci Educació de Barcelona; Paloma Canduela (Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria).</li>
+                    <li>Participantes: Lucio Calleja Bachiller, Subdirector General de Cooperación Territorial del MEFPD; Carmen Romero Ureña (Inspectora y Profesora colaboradora de la UVA de FEAE CyL); ; Mª José Cesena Santiago, Direcció de l'Àrea Educació Inclusiva del Consorci Educació de Barcelona; Paloma Canduela (Jefa de Unidad de Inclusión de la Consejería de Educación, FP y Universidades de Cantabria).</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">14:00</strong> · Comida-encuentro para participantes inscritos. Espacio Aula Jardín del CIFICE.</p></li>
