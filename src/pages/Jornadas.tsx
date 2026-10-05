@@ -34,7 +34,6 @@ import tallerAngelsCadena from "@/assets/taller-angels-cadena.jpg";
 import estebanCorsino from "@/assets/conv-esteban-corsino.jpg";
 import albaBostaji from "@/assets/conv-alba-bostaji.png";
 import mariamaSouare from "@/assets/conv-mariama-souare.png";
-import joseSantamaria from "@/assets/conv-jose-santamaria.png";
 import mariaJoseCesena from "@/assets/conv-maria-jose-cesena.jpg";
 
 type Person = { name: string; role: string; img?: string };
@@ -98,11 +97,6 @@ const conversatorio2: Person[] = [
   {
     name: "Carmen Romero Ureña",
     role: "Inspectora y profesora colaboradora de la UVA, FEAE Castilla y León.",
-  },
-  {
-    name: "José Sánchez Santamaría",
-    role: "Doctor en Pedagogía, profesor y coordinador del GRIOCE y presidente de FEAE Castilla-La Mancha.",
-    img: joseSantamaria,
   },
   {
     name: "Mª José Cesena Santiago",
@@ -215,7 +209,7 @@ const jornadasJsonLd = {
   eventStatus: "https://schema.org/EventScheduled",
   location: {
     "@type": "Place",
-    name: "Universidad de Zaragoza · Espacio Ibercaja Joven",
+    name: "Universidad de Zaragoza",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Zaragoza",
@@ -459,7 +453,7 @@ const Jornadas = () => (
 
             <div>
               <h4 className="font-semibold text-foreground">Sábado, 24 de octubre</h4>
-              <p className="text-sm mt-1">Espacio Ibercaja Joven, Paseo Fernando el Católico, 1-3, 50006 Zaragoza.</p>
+              <p className="text-sm mt-1"></p>
               <p className="italic text-primary/80 mt-2">Prácticas: "Cómo actuamos, evaluamos y acompañamos en el aprendizaje".</p>
               <ul className="mt-3 space-y-3">
                 <li><p><strong className="text-foreground">09:30</strong> · Recepción y registro.</p></li>
@@ -591,7 +585,7 @@ const Jornadas = () => (
               <h4 className="font-semibold text-foreground mb-2">Sedes</h4>
               <ul className="space-y-2 list-disc pl-5">
                 <li><strong className="text-foreground">23 de octubre.</strong> Salón de Actos de la Facultad de Educación, Universidad de Zaragoza. Campus San Francisco, Calle Pedro Cerbuna, 12, 50009 Zaragoza.</li>
-                <li><strong className="text-foreground">24 de octubre.</strong> Espacio Ibercaja Joven. Paseo Fernando el Católico, 1-3, 50006 Zaragoza.</li>
+                <li><strong className="text-foreground">24 de octubre.</strong>  </li>
               </ul>
             </div>
             <div>
