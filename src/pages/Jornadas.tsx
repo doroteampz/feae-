@@ -475,12 +475,11 @@ const Jornadas = () => (
                 <li>
                   <p><strong className="text-foreground">12:15</strong> · "Miradas que reflexionan, debaten y buscan compromisos". Open Space: Papel de los administradores de la educación ante la educación inclusiva. Dinámica de debate por bloques temáticos.</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
-                    <li>Bloques temáticos: Culturas, Políticas y Prácticas.</li>
-                    <li>Inspección y administración (FEAE Cataluña).</li>
-                    <li>Centros educativos (FEAE Valencia).</li>
-                    <li>Papel de entidades (FEAE Galicia).</li>
-                    <li>Formación del profesorado (FEAE CyL).</li>
-                    <li>Red de Orientación (FEAE Aragón).</li>
+                    <li>Space 1: Inspección y administración. Coordinan: FEAE Cataluña y Feae Aragón. ¿Qué necesitamos cambiar en nuestras propias formas de, supervisar y acompañar para que la inclusión sea una realidad y no solo un mandato normativo?</li>
+                    <li>Space 2: Centros educativos. Coordinan: FEAE Canarias, FEAE Cantabria y FEAE CV.  ¿Hasta qué punto nuestros centros educativos están transformando sus prácticas para responder a la diversidad del alumnado, y no simplemente adaptando al alumnado a estructuras ya existentes? ¿Cuáles son las principales dificultades, en su caso?</li>
+                    <li>Space 3: Papel de entidades. Coordinan: FEAE Cataluña y FEAE Galicia. ¿Cómo es preciso plantear las intervenciones de las entidades para que tengan repercusión directa y precisa en el planteamiento de cada centro educativo acerca de la inclusión?</li>
+                    <li>Space 4: Formación del profesorado. Coordinan FEAE Galicia, FEAE CLM y FEAE CV. ¿Cómo debemos repensar la formación y el acompañamiento del profesorado para afrontar los retos de la inclusión educativa en un contexto social y cultural de creciente exclusión y pérdida de valores humanos, teniendo en cuenta que sus necesidades y vulnerabilidades cambian a lo largo de toda su trayectoria profesional?</li>
+                    <li>Space 5: Red de Orientación. Coordina: FEAE CV. ¿ El actual modelo de orientación centrado principalmente en la identificación y atención de las necesidades del alumnado resulta eficiente, sostenible e inclusivo?</li>
                   </ul>
                 </li>
                 <li><p><strong className="text-foreground">13:15</strong> · Conclusiones y cierre.</p></li>
@@ -585,7 +584,7 @@ const Jornadas = () => (
               <h4 className="font-semibold text-foreground mb-2">Sedes</h4>
               <ul className="space-y-2 list-disc pl-5">
                 <li><strong className="text-foreground">23 de octubre.</strong> Salón de Actos de la Facultad de Educación, Universidad de Zaragoza. Campus San Francisco, Calle Pedro Cerbuna, 12, 50009 Zaragoza.</li>
-                <li><strong className="text-foreground">24 de octubre.</strong>  </li>
+                <li><strong className="text-foreground">24 de octubre.</strong> Centro de Innovación, Formación e Investigación en Ciencias de la Educación (CIFICE) de la Universidad de Zaragoza, Campus Universitario, C. de Pedro Cerbuna, 12, 50009 Zaragoza. </li>
               </ul>
             </div>
             <div>
@@ -740,6 +739,26 @@ const Jornadas = () => (
                   <a href="mailto:feaeforumaragon@gmail.com" className="font-bold text-primary hover:underline">feaeforumaragon@gmail.com</a>
                 </li>
               </ul>
+            </div>
+            
+            <div>
+              <h4 className="font-semibold text-foreground mb-2">Pósteres admitidos</h4>
+              <ul className="space-y-1 list-disc pl-5">
+                <li><strong className="text-foreground">Viernes 23 de octubre: </strong></li>
+                <li>La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.</li>
+                <li>Experiencia de Aprendizaje-Servicio universitario: Del encuentro personal a la institucionalización. Ana Diez-Barturen Llombart; Teresa Coma Roselló.</li>
+                <li>La inteligencia colectiva como estrategia educativa para trabajar el ciberacoso: un estudio de caso en el aula de Educación Primaria Mafalda Meloni Álvarez.</li>
+                <li>Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio. José Luis Miralles Bono.</li>
+                <li>Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción. Juan Antonio Rodríguez; Cristina Moreno Pinillos; Daniel García Goncet.</li>
+                <li>¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA. Marina Tudela Aparicio; Marc Gúdel Téllez.</li>
+              </ul>
+              <ul className="space-y-1 list-disc pl-5">
+                <li><strong className="text-foreground">Sábado 24 de octubre: </strong></li>
+                <li>Inclusión Activa en el Aula Ordinaria: Diseño e Implementación de Respuestas de Acceso Universal. Estela Garrido Marín; Reyes Borruel López; Ana Laga Remón.</li>
+                <li>Aprendizaje Colaborativo basado en Retos en la formación inclusiva del profesorado de Formación Profesional. Jesús Cuevas Salvador.</li>
+                <li>¿Cómo detectar a las niñas autistas en la escuela? Futuro protocolo para patio y aula. Irene García-Molina.</li>
+                <li>¿Qué sabemos de DUA? Conocimiento y percepción del Diseño Universal para el Aprendizaje en el contexto universitario. Noelia Rodríguez Rodríguez.</li>
+                <li>Súbete al tren de la inclusión. Eduardo Alvira del Olmo; Eduardo Muñoz Ubide.</li>
             </div>
           </AccordionContent>
         </AccordionItem>
