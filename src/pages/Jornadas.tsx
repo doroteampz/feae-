@@ -35,6 +35,17 @@ import estebanCorsino from "@/assets/conv-esteban-corsino.jpg";
 import albaBostaji from "@/assets/conv-alba-bostaji.png";
 import mariamaSouare from "@/assets/conv-mariama-souare.png";
 import mariaJoseCesena from "@/assets/conv-maria-jose-cesena.jpg";
+import poster1Multimodalidad from "@/assets/1- La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA.pdf";
+import poster2AprendizajeServicio from "@/assets/2-Experiencia de Aprendizaje-Servicio universitario_ Del encuentro personal a la institucionalización..pdf";
+import poster3InteligenciaColectiva from "@/assets/3- LA INTELIGENCIA COLECTIVA COMO ESTRATEGIA EDUCATIVA PARA TRABAJAR EL CIBERACOSO_ UN ESTUDIO DE CASO EN EL AULA DE EDUCACIÓN PRIMARIA.pdf";
+import poster4Incluxat from "@/assets/4- Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio.pdf";
+import poster5Reconstruyendo from "@/assets/5- Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción_.pdf";
+import poster6TeamoMucho from "@/assets/6- ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA.pdf";
+import poster7InclusionActiva from "@/assets/7- Inclusión Activa en el Aula Ordinaria_ Diseño e Implementación de Respuestas de Acceso Universal.pdf";
+import poster8AprendizajeColaborativo from "@/assets/8- Aprendizaje Colaborativo basado en Retos en la formación inclusiva del profesorado de Formación Profesional.pdf";
+import poster9NinasAutistas from "@/assets/9- ¿Cómo detectar a las niñas autistas en la escuela_ Futuro protocolo para patio y aula.pdf";
+import poster10QueSabemosDUA from "@/assets/10- ¿Qué sabemos del DUA_.pdf";
+import poster11SubeteAlTren from "@/assets/11- SÚBETE AL TREN DE LA INCLUSIÓN.pdf";
 
 type Person = { name: string; role: string; img?: string };
 
