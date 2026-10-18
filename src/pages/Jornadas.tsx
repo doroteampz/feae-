@@ -757,35 +757,36 @@ const Jornadas = () => (
               <ul className="space-y-1 list-disc pl-5">
                 <li><strong className="text-foreground">Viernes 23 de octubre: </strong></li>
                 <li>
-  <a href="/docs/1- La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.
-  </a>
-</li>
-<li>
-  <a href="/docs/2-Experiencia de Aprendizaje-Servicio universitario_ Del encuentro personal a la institucionalización..pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    Experiencia de Aprendizaje-Servicio universitario: Del encuentro personal a la institucionalización. Ana Diez-Barturen Llombart; Teresa Coma Roselló.
-  </a>
-</li>
-<li>
-  <a href="/docs/3- LA INTELIGENCIA COLECTIVA COMO ESTRATEGIA EDUCATIVA PARA TRABAJAR EL CIBERACOSO_ UN ESTUDIO DE CASO EN EL AULA DE EDUCACIÓN PRIMARIA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    La inteligencia colectiva como estrategia educativa para trabajar el ciberacoso: un estudio de caso en el aula de Educación Primaria Mafalda Meloni Álvarez.
-  </a>
-</li>
-<li>
-  <a href="/docs/4- Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio. José Luis Miralles Bono.
-  </a>
-</li>
-<li>
-  <a href="/docs/5- Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción_.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción. Juan Antonio Rodríguez; Cristina Moreno Pinillos; Daniel García Goncet.
-  </a>
-</li>
-<li>
-  <a href="/docs/6- ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-    ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA. Marina Tudela Aparicio; Marc Gúdel Téllez.
-  </a>
-</li>
+                <li>
+                  <a href={poster1Multimodalidad} download="1_La_Multimodalidad.pdf" className="font-bold text-primary hover:underline">
+                    La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster2AprendizajeServicio} download="2_Experiencia_Aprendizaje_Servicio.pdf" className="font-bold text-primary hover:underline">
+                    Experiencia de Aprendizaje-Servicio universitario: Del encuentro personal a la institucionalización. Ana Diez-Barturen Llombart; Teresa Coma Roselló.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster3InteligenciaColectiva} download="3_Inteligencia_Colectiva_Ciberacoso.pdf" className="font-bold text-primary hover:underline">
+                    La inteligencia colectiva como estrategia educativa para trabajar el ciberacoso: un estudio de caso en el aula de Educación Primaria Mafalda Meloni Álvarez.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster4Incluxat} download="4_Incluxat_Informes_Conservatorio.pdf" className="font-bold text-primary hover:underline">
+                    Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio. José Luis Miralles Bono.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster5Reconstruyendo} download="5_Plan_Atencion_Diversidad.pdf" className="font-bold text-primary hover:underline">
+                    Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción. Juan Antonio Rodríguez; Cristina Moreno Pinillos; Daniel García Goncet.
+                </a>
+                </li>
+                <li>
+                <a href={poster6TeamoMucho} download="6_TEAmo_Mucho_Tecnologia_Inclusiva.pdf" className="font-bold text-primary hover:underline">
+                  ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA. Marina Tudela Aparicio; Marc Gúdel Téllez.
+                </a>
+                </li>
               </ul>
               <ul className="space-y-1 list-disc pl-5">
                 <li><strong className="text-foreground">Sábado 24 de octubre: </strong></li>
