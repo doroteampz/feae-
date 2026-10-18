@@ -745,12 +745,36 @@ const Jornadas = () => (
               <h4 className="font-semibold text-foreground mb-2">Pósteres admitidos</h4>
               <ul className="space-y-1 list-disc pl-5">
                 <li><strong className="text-foreground">Viernes 23 de octubre: </strong></li>
-                <li>La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.</li>
-                <li>Experiencia de Aprendizaje-Servicio universitario: Del encuentro personal a la institucionalización. Ana Diez-Barturen Llombart; Teresa Coma Roselló.</li>
-                <li>La inteligencia colectiva como estrategia educativa para trabajar el ciberacoso: un estudio de caso en el aula de Educación Primaria Mafalda Meloni Álvarez.</li>
-                <li>Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio. José Luis Miralles Bono.</li>
-                <li>Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción. Juan Antonio Rodríguez; Cristina Moreno Pinillos; Daniel García Goncet.</li>
-                <li>¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA. Marina Tudela Aparicio; Marc Gúdel Téllez.</li>
+                <li>
+  <a href="/docs/1- La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.
+  </a>
+</li>
+<li>
+  <a href="/docs/2-Experiencia de Aprendizaje-Servicio universitario_ Del encuentro personal a la institucionalización..pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    Experiencia de Aprendizaje-Servicio universitario: Del encuentro personal a la institucionalización. Ana Diez-Barturen Llombart; Teresa Coma Roselló.
+  </a>
+</li>
+<li>
+  <a href="/docs/3- LA INTELIGENCIA COLECTIVA COMO ESTRATEGIA EDUCATIVA PARA TRABAJAR EL CIBERACOSO_ UN ESTUDIO DE CASO EN EL AULA DE EDUCACIÓN PRIMARIA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    La inteligencia colectiva como estrategia educativa para trabajar el ciberacoso: un estudio de caso en el aula de Educación Primaria Mafalda Meloni Álvarez.
+  </a>
+</li>
+<li>
+  <a href="/docs/4- Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    Incluxat. Traducir los informes psicopedagógicos a la realidad del conservatorio. José Luis Miralles Bono.
+  </a>
+</li>
+<li>
+  <a href="/docs/5- Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción_.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    Re-construyendo el Plan de Atención a la Diversidad de una escuela rural mediante un proceso de investigación-acción. Juan Antonio Rodríguez; Cristina Moreno Pinillos; Daniel García Goncet.
+  </a>
+</li>
+<li>
+  <a href="/docs/6- ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
+    ¡TEAmo Mucho! Tecnología Inclusiva para la Regulación Emocional y el Entorno Sensorial de Alumnos con TEA. Marina Tudela Aparicio; Marc Gúdel Téllez.
+  </a>
+</li>
               </ul>
               <ul className="space-y-1 list-disc pl-5">
                 <li><strong className="text-foreground">Sábado 24 de octubre: </strong></li>
