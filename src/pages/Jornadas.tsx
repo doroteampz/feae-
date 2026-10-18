@@ -787,6 +787,7 @@ const Jornadas = () => (
                 </a>
                 </li>
               </ul>
+              
               <ul className="space-y-1 list-disc pl-5">
                 <strong className="text-foreground">Sábado 24 de octubre: </strong>
                 <li>
