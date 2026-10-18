@@ -755,7 +755,7 @@ const Jornadas = () => (
             <div>
               <h4 className="font-semibold text-foreground mb-2">Pósteres admitidos</h4>
               <ul className="space-y-1 list-disc pl-5">
-                <li><strong className="text-foreground">Viernes 23 de octubre: </strong></li>
+                <strong className="text-foreground">Viernes 23 de octubre: </strong>
                 <li>
                   <a href={poster1Multimodalidad} download="1_La_Multimodalidad.pdf" className="font-bold text-primary hover:underline">
                     La Multimodalidad como estrategia inclusiva en Educación Superior. I Muestra del Programa USJ DIVERSA. Arantzazu Martínez-Odría; María José González-Fernández.
@@ -788,12 +788,32 @@ const Jornadas = () => (
                 </li>
               </ul>
               <ul className="space-y-1 list-disc pl-5">
-                <li><strong className="text-foreground">Sábado 24 de octubre: </strong></li>
-                <li>Inclusión Activa en el Aula Ordinaria: Diseño e Implementación de Respuestas de Acceso Universal. Estela Garrido Marín; Reyes Borruel López; Ana Laga Remón.</li>
-                <li>Aprendizaje Colaborativo basado en Retos en la formación inclusiva del profesorado de Formación Profesional. Jesús Cuevas Salvador.</li>
-                <li>¿Cómo detectar a las niñas autistas en la escuela? Futuro protocolo para patio y aula. Irene García-Molina.</li>
-                <li>¿Qué sabemos de DUA? Conocimiento y percepción del Diseño Universal para el Aprendizaje en el contexto universitario. Noelia Rodríguez Rodríguez.</li>
-                <li>Súbete al tren de la inclusión. Eduardo Alvira del Olmo; Eduardo Muñoz Ubide.</li>
+                <strong className="text-foreground">Sábado 24 de octubre: </strong>
+                <li>
+                  <a href={poster7InclusionActiva} download="7_Inclusion_Activa_Aula.pdf" className="font-bold text-primary hover:underline">
+                    Inclusión Activa en el Aula Ordinaria: Diseño e Implementación de Respuestas de Acceso Universal. Estela Garrido Marín; Reyes Borruel López; Ana Laga Remón.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster8AprendizajeColaborativo} download="8_Aprendizaje_Colaborativo_Retos.pdf" className="font-bold text-primary hover:underline">
+                    Aprendizaje Colaborativo basado en Retos en la formación inclusiva del profesorado de Formación Profesional. Jesús Cuevas Salvador.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster9NinasAutistas} download="9_Deteccion_Ninas_Autistas.pdf" className="font-bold text-primary hover:underline">
+                    ¿Cómo detectar a las niñas autistas en la escuela? Futuro protocolo para patio y aula. Irene García-Molina.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster10QueSabemosDUA} download="10_Conocimiento_DUA.pdf" className="font-bold text-primary hover:underline">
+                    ¿Qué sabemos de DUA? Conocimiento y percepción del Diseño Universal para el Aprendizaje en el contexto universitario. Noelia Rodríguez Rodríguez.
+                  </a>
+                </li>
+                <li>
+                  <a href={poster11SubeteAlTren} download="11_Subete_Tren_Inclusion.pdf" className="font-bold text-primary hover:underline">
+                    Súbete al tren de la inclusión. Eduardo Alvira del Olmo; Eduardo Muñoz Ubide.
+                  </a>
+                </li>
               </ul>
             </div>
           </AccordionContent>
