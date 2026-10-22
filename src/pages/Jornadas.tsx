@@ -395,8 +395,7 @@ const Jornadas = () => (
                   <p><strong className="text-foreground">09:30</strong> · Acto de inauguración</p>
                   <ul className="list-disc pl-6 mt-1 text-sm">
                     <li>D. Santos Orejudo Hernández, Decano de la Facultad de Educación, Universidad de Zaragoza.</li>
-                    <li>Dña. Mónica Domínguez García, Directora General de Evaluación y Cooperación Territorial, Ministerio de Educación, Formación Profesional y Deportes, Gobierno de España.</li>
-                    <li>Dirección General de Política Educativa, Ordenación, Equidad y Formación, Consejería de Educación, Ciencia y Universidades, Gobierno de Aragón.</li>
+                    <li>Dña. Marta Puente, Presidenta del Consejo Escolar de Aragón.</li>
                     <li>Dña. Dolores Pevida Llamazares. Presidenta Estatal de FEAE.</li>
                     <li>D. Jacobo Cano Escoriaza, Director del CIFICE, UNIZAR.</li>
                     <li>Dña. Dorotea Pérez Fernández. Presidenta de FEAE Aragón.</li>
