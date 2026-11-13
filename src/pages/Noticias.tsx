@@ -50,7 +50,7 @@ const news: NewsItem[] = [
           Con motivo de las XXXIII Jornadas Estatales de FEAE, celebradas en Zaragoza los días 23 y 24 de octubre bajo el lema «Miradas de la Educación Inclusiva», el Consejo General de FEAE aprobó el 25 de octubre una Declaración sobre la Educación Inclusiva, fruto del trabajo y la reflexión compartida durante las jornadas.
           La declaración defiende que la educación inclusiva no es una opción, sino la respuesta que garantiza el derecho a la presencia, la participación y el aprendizaje de todo el alumnado. 
         <a
-            href="/docs/declaracion-educacion-inclusiva.pdf"
+            href="/docs/PLAN ESTRATÉGICO DE EDUCACIÓN INCLUSIVA 2026-2031.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium underline text-primary hover:opacity-80"
