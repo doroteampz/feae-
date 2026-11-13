@@ -59,7 +59,16 @@ const news: NewsItem[] = [
           </a>
         </p>
         <p>
-          Asimismo, destacamos la aprobación, el pasado 3 de noviembre, del Plan Estratégico de Educación Inclusiva, que establece un marco común para avanzar hacia una educación inclusiva, equitativa y de calidad para todo el alumnado.
+          Asimismo, destacamos la aprobación, el pasado 3 de noviembre, del 
+          <a
+            href="/docs/DECLARACION FEAE ESCUELA INCLUSIVA.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline text-primary hover:opacity-80"
+          >
+            Plan Estratégico de Educación Inclusiva
+          </a>
+          , que establece un marco común para avanzar hacia una educación inclusiva, equitativa y de calidad para todo el alumnado.
           Desde FEAE nos comprometemos a seguir promoviendo el debate, la difusión de buenas prácticas y generando espacios de formación compartida.
           Rogamos la máxima difusión de estos documentos entre todos los sectores de la Comunidad Educativa.
         </p>
