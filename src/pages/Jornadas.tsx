@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/accordion";
 import { Seo } from "@/components/site/Seo";
 import fondoAsset from "@/assets/fondo.png";
-import posterAsset from "@/assets/miradas-poster.jpeg";
+import posterAsset from "@/assets/miradas-poster.jpg";
 import logoCifice from "@/assets/logo-cifice.png";
 import logoFacultad from "@/assets/logo-facultad-educacion.png";
 import logoEdelvives from "@/assets/logo-edelvives.jpg";
