@@ -20,7 +20,7 @@ import autismos1 from "@/assets/news-autismos-1.jpg";
 import autismos2 from "@/assets/news-autismos-2.jpg";
 import interforo1 from "@/assets/news-interforo-1.png";
 import interforo2 from "@/assets/news-interforo-2.jpg";
-import planest from "@/assets/Capplan_est.jpg";
+import planest from "@/assets/Capplan_est.png";
 
 type NewsItem = {
   title: string;
