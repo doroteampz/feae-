@@ -20,6 +20,7 @@ import autismos1 from "@/assets/news-autismos-1.jpg";
 import autismos2 from "@/assets/news-autismos-2.jpg";
 import interforo1 from "@/assets/news-interforo-1.png";
 import interforo2 from "@/assets/news-interforo-2.jpg";
+import planest from "@/assets/Capplan_est.jpg";
 
 type NewsItem = {
   title: string;
@@ -33,6 +34,38 @@ type NewsItem = {
 };
 
 const news: NewsItem[] = [
+  {
+    title: " Declaración sobre la Educación Inclusiva y Plan Estratégico",
+    date: "23-24/10/2026",
+    tag: "Declaración",
+    img: planest,
+    imgAlt: "Portada Plan Estratégico",
+    text: "Tras las jornadas en Zaragoza, FEAE destaca la aprobación de su Declaración y del Plan Estratégico de Educación Inclusiva para garantizar el derecho a una educación equitativa.",
+    gallery: [
+      { src: planest, alt: "Portada Plan Estratégico (2026-2031)" },
+    ],
+    details: (
+      <div className="space-y-4 text-sm leading-relaxed text-foreground">
+        <p>
+          Con motivo de las XXXIII Jornadas Estatales de FEAE, celebradas en Zaragoza los días 23 y 24 de octubre bajo el lema «Miradas de la Educación Inclusiva», el Consejo General de FEAE aprobó el 25 de octubre una Declaración sobre la Educación Inclusiva, fruto del trabajo y la reflexión compartida durante las jornadas.
+          La declaración defiende que la educación inclusiva no es una opción, sino la respuesta que garantiza el derecho a la presencia, la participación y el aprendizaje de todo el alumnado. 
+        <a
+            href="/docs/declaracion-educacion-inclusiva.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline text-primary hover:opacity-80"
+          >
+            Clique aquí para verla.
+          </a>
+        </p>
+        <p>
+          Asimismo, destacamos la aprobación, el pasado 3 de noviembre, del Plan Estratégico de Educación Inclusiva, que establece un marco común para avanzar hacia una educación inclusiva, equitativa y de calidad para todo el alumnado.
+          Desde FEAE nos comprometemos a seguir promoviendo el debate, la difusión de buenas prácticas y generando espacios de formación compartida.
+          Rogamos la máxima difusión de estos documentos entre todos los sectores de la Comunidad Educativa.
+        </p>
+      </div>
+    ),
+  },
   {
     title: "II Jornadas: Hablemos de autismos",
     date: "15-16/05/2026",
